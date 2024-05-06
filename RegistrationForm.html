@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color: #f41717; "> Employee Registration Form</h1>
+    <form>
+        <div class="container">
+            <table style="text-align: center; margin-left: 200px;">
+                <tr>
+                    <td> <input type="radio" name="Mr." /> Mr.</td>
+                    <td> <input type="radio" name="Mrs." /> Mrs. </td>
+
+                    <td> <input type="radio" name="Ms." /> Ms.</td>
+                </tr>
+            </table> <br><br>
+            <label style=" margin-left: 10px;" for="fisrt name">First Name</label>
+            <input style=" margin-left: 130px;" type="text" placeholder="First Name" name="first name" id="first name"
+                required><br><br>
+            <label style=" margin-left: 10px;" for="last name">Last Name</label>
+            <input style=" margin-left: 130px;" type="text" placeholder="Last Name" name="last name" id="last name"
+                required><br><br>
+            <label style=" margin-left: 10px;" for="mail address1">Mail Address1</label>
+            <input style=" margin-left: 105px;" type="text" name="mail address1" id="mail address1"><br><br>
+            <label style=" margin-left: 10px;" for="mail address2">Mail Address2</label>
+            <input style=" margin-left: 105px;" type="text" name="mail address2" id="mail address2"><br><br>
+            <label style=" margin-left: 10px;" for="city">City</label>
+            <input style=" margin-left: 170px;" type="text" name="city" id="city"><br><br>
+            <label style=" margin-left: 10px;" for="state">State</label>
+            <select style=" margin-left: 165px;">
+                <option value="=Madhya Pradesh"> Madhya Pradesh</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                <option value="Hydrabad">Hydrabad</option>
+            </select><br><br>
+            <label style=" margin-left: 10px;" for="zip">Zip</label>
+            <input style=" margin-left: 175px;" type="text" name="zip" id="zip" size="20"><br><br>
+            <label style=" margin-left: 10px;" for="uploadfile">Upoad File</label>
+            <button style=" margin-left: 125px;" type="button" name="browse" id="browse">Browse</button><br><br>
+            <label style=" margin-left: 10px;" for="email">E-mail</label>
+            <input style=" margin-left: 155px;" type="text" name="email" id="email"><br><br>
+            <label style=" margin-left: 10px;" for="mobilenumber">Mobile-Number</label>
+            <input style=" margin-left: 90px;" type="text" placeholder="+91" name="mobilenumber" id="mobilenumber"><br><br>
+
+            <label style=" margin-left: 10px;" for="text" name="language">Language known</label>
+            <input style=" margin-left: 80px;" type="checkbox" name="hindi" id="hindi" checked>Hindi</input><br>
+            <input style=" margin-left: 200px;" type="checkbox" name="gujarati" id="gujarati">Gujarati</input><br>
+            <input style=" margin-left: 200px;" type="checkbox" name="english" id="english" checkbox>English</input><br>
+            <input style=" margin-left: 200px;" type="checkbox" name="marathi" id="marathi">Marathi</input><br>
+            <table>
+                <tr>
+                    <td> <label style=" margin-left: 10px; width: 30%;" for="additionalinformation">Additional-Information</label>
+                    </td>
+                    <td style=" margin-left: 50px;"> <textarea id="additionalinformation" name="additionalinformation" rows="5" cols="40"
+                            placeholder="Optional"></textarea>
+                    </td>
+                </tr>
+            </table>
+            <br> <button style=" margin-left: 200px;" type="submit" name="submit" id="submit">Submit</button>
+            <button style=" margin-left: 10px;" type="reset" name="reset" id="reset">Reset</button>
+        </div>
+    </form>
+</body>
+</html>
